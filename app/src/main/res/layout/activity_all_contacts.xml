@@ -4,15 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".AllContactsActivity">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler"
+   <TextView
+       android:id="@+id/nametv"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/numbertv"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-
-         />
-
+        android:layout_height="wrap_content"
+       />
 
 
 </LinearLayout>

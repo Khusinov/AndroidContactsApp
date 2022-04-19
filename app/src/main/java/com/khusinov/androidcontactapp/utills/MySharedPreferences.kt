@@ -21,7 +21,7 @@ object MySharedPreferences {
 
     var contact: String?
 
-        get() = preferences.getString("key1", "")
+        get() = preferences.getString("key1", "bug")
 
         set(value) = preferences.edit {
             if (value != null) {
